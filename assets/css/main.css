@@ -180,7 +180,8 @@
 @media (max-width: 760px) {
   .hero-Block .hero-Container .hero-Inner .hero-Card_area .hero-Card_inner .hero-Card {
     width: 100px;
-    height: 100px;
+    height: 130px;
+    padding: 1% 0;
   }
 }
 .hero-Block .hero-Container .hero-Inner .hero-Card_area .hero-Card_inner .hero-Card img {
@@ -189,6 +190,11 @@
   max-height: 50px;
   height: auto;
   margin: auto 0;
+}
+@media (max-width: 760px) {
+  .hero-Block .hero-Container .hero-Inner .hero-Card_area .hero-Card_inner .hero-Card p {
+    font-size: 16px;
+  }
 }
 .hero-Block .hero-Container .hero-Inner .hero-Card_area .hero-Card_register_btn {
   width: 50%;
@@ -638,7 +644,7 @@
   content: "";
   position: absolute;
   bottom: -10%;
-  left: 46%;
+  left: 45.5%;
   height: 2px;
   width: 50px;
   background-color: #000;
